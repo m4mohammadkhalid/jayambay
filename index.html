@@ -43,10 +43,58 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+body {margin:0;height:2000px;}
+
+.icon-bar {
+  position: fixed;
+  top: 72%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 999;
+  right: 0px;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #051829;
+  color: white;
+}
+
+.twitter {
+  background: #051829;
+  color: white;
+}
+
+.google {
+  background: #051829;
+  color: white;
+}
+
+.youtube {
+  background: #051829;
+  color: white;
+}
+</style>
+
 </head>
 
 <body>
-
+    
     <!-- start page-wrapper -->
     <div class="page-wrapper">
 
@@ -61,6 +109,7 @@
         
         <!-- Start header -->
         <header id="header" class="site-header header-style-1">
+
             <div class="topbar topbar-style-1">
                 <div class="container">
                     <div class="row">
@@ -106,9 +155,7 @@
                     <div id="navbar" class="navbar-collapse collapse navigation-holder">
                         <button class="close-navbar"><i class="fa fa-close"></i></button>
                         <ul class="nav navbar-nav">
-                            <li class="menu-item-has-children">
-                                <a href="index.html">Home</a>
-                            </li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Services</a></li>
                             <li><a href="#">Contact</a></li>
@@ -604,7 +651,12 @@
     </div>
     <!-- end of page-wrapper -->
 
-
+    <div class="icon-bar">
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
 
     <!-- All JavaScript files
     ================================================== -->
